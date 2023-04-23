@@ -37,7 +37,7 @@ The following is the full-sized screenshot (width: 1140px). Other size screensho
 
 ### Links
 
-- Repository: [GitHub Repository](https://github.com/jguleserian/jguleserian-portfolio)
+- Repository: [GitHub Repository](https://github.com/jguleserian/jguleserian-portfolio.git)
 - Live Site URL: [GitHub Pages](https://jguleserian.github.io/jguleserian-portfolio/)
 
 ## My process

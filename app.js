@@ -20,11 +20,11 @@ $("svg.LIicon").hover(() => {
         $("path.LIicon").css("fill", "#fff");
     }
 );
-$("svg.TWicon").hover(() => {
-        $("path.TWicon").css("fill", "var(--green)")
+$("svg.CPicon").hover(() => {
+        $("path.CPicon").css("fill", "var(--green)")
     },
     () => {
-        $("path.TWicon").css("fill", "#fff");
+        $("path.CPicon").css("fill", "#fff");
     }
 );
 
