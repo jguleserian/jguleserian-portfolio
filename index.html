@@ -7,14 +7,13 @@
     <meta name="description" content="developer portfolio">
     <meta name="author" content="Jeff Guleserian">
     <meta name="keywords" content="Guleserian, developer">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-guleserian-32.png">
     <title>JTG Online Portfolio</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/local.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 </head>
 
-<body id="p-dev-portfolio">
+<body id="p-dev-portfolio" class="body-setup">
     <div id="container">
         <nav id="nav">
             <p class="g-brand">@jguleserian</p>
@@ -34,15 +33,15 @@
                     <img class="hero" src="./assets/images/image-profile-desktop.png" alt="profile picture" />
                 </picture>
                 <img class="rings-left" src="./assets/images/pattern-rings.svg" alt="background ring pattern">
-                <h2 class="g-heading-XL headline">
+                <h2 class="g-heading-XL headline1">
                     <span class="line-break space-adjust">Ready for awesome? </span> <span class="in-line heading-underline"></span></h2>
-                <h2 class="g-heading-XL headline"><span class="in-line">Let's get </span><span class="heading-underline line-break">started</span>!</h2>
+                <h2 class="g-heading-XL headline2"><span class="in-line">Let's get </span><span class="heading-underline line-break">started</span>!</h2>
                 <p class="g-body-text header-desc"><span class="greeting">I'm glad you're here!</span>My name is <span class="emphasis">Jeff Guleserian</span>. As a full-stack developer, I make it my goal to build functional web apps that get noticed and that users love.</p>
-                <a class="g-contact" href="#contactForm"> Contact me</a>
+                <a class="g-contact" href="#contactForm">Contact me</a>
                 <img class="circle-graphic" src="./assets/images/pattern-circle.svg" alt="decorative circle pattern">
             </header>
             <section id="skills">
-                <hr class="top" />
+                <hr class="upperHR" />
                 <img class="rings-right" src="./assets/images/pattern-rings.svg" alt="background ring pattern">
                 <div class="skills-detail">
                     <h3 class="g-heading-L">HTML</h3>
@@ -68,7 +67,7 @@
                     <h3 class="g-heading-L">WordPress</h3>
                     <p class="g-body-text detail-spacing">6 Years Experience</p>
                 </div>
-                <hr class="lowerHR">
+                <hr class="lowerHR" />
             </section>
             <section id="projects">
                 <div id="projects-title">
@@ -116,7 +115,7 @@
                             <img class="example-pic" src="./assets/images/thumbnail-YoureWorthWebsite.png" alt="entertainment web app thumbnail">
                         </picture>
                         <h3 class="g-heading-M example-title">You're Worthy Website</h3>
-                        <p class="g-body-text bt-modified">HTML CSS JAVASCRIPT</p>
+                        <p class="g-body-text bt-modified">HTML CSS SASS JAVASCRIPT</p>
                         <div class="overlay">
                             <a rel="noopener" class="g-contact" href="https://jguleserian.github.io/Website-YoureWorthy/" target="_blank">View project</a>
                             <a rel="noopener" class="g-contact" href="https://github.com/jguleserian/Website-YoureWorthy" target="_blank">View code</a>
@@ -168,9 +167,9 @@
                     <textarea class="form-input message-input" name="message" id="message" cols="30" rows="4" placeholder="message"></textarea>
                     <button class="g-contact send-button" type="submit">Send message</button>
                 </form>
-                <hr class="bottom" />
             </section>
         </main>
+        <hr class="footerHR" />
         <footer id="footer">
             <p class="g-brand">@jguleserian</p>
             <ul class="foot">
@@ -187,6 +186,7 @@
             </ul>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="./app.js"></script>
 </body>
 

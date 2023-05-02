@@ -1,0 +1,86 @@
+/*-----GLOBAL STYLES-----*/
+
+
+/*----Reset & Variables----*/
+
+html {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    font-size: .8rem;
+    box-sizing: border-box;
+}
+
+#p-dev-portfolio {
+    background-color: $color-grey-light;
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: inherit;
+}
+
+.g-heading-XL {
+    font-weight: $font-weight-bold;
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -2.5px;
+    color: $color-white;
+}
+
+.g-heading-L {
+    font-weight: $font-weight-bold;
+    font-size: 4.8rem;
+    letter-spacing: -1.5px;
+    line-height: 5.6rem;
+    color: $color-white;
+}
+
+.g-heading-M {
+    font-weight: $font-weight-bold;
+    font-size: 2.4rem;
+    line-height: 3.2px;
+    color: $color-white;
+}
+
+.g-brand {
+    font-weight: 700;
+    font-size: 3.2rem;
+    letter-spacing: -0.44px;
+    &:hover {
+        color: $color-green;
+        transform: scale(105%);
+        text-shadow: 0 0 15px #4ee19f44;
+    }
+}
+
+.g-body-text {
+    font-weight: $font-weight-medium;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: $color-grey-light;
+}
+
+.g-contact {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 2.29px;
+    color: $color-white;
+    text-transform: uppercase;
+    text-decoration: underline $color-green .2rem;
+    text-underline-offset: 1.6rem;
+    &:hover {
+        transform: scale(105%);
+        cursor: pointer;
+        color: $color-green;
+    }
+}

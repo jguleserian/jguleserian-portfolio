@@ -1,27 +1,27 @@
 /*-NOTE: Hover effects for icons and overlays -*/
 $("svg.GHicon").hover(() => {
-        $("path.GHicon").css("fill", "var(--green)")
+        $("path.GHicon").css("fill", "#4EE1A0")
     },
     () => {
         $("path.GHicon").css("fill", "#fff");
     }
 );
 $("svg.FMicon").hover(() => {
-        $("path.FMicon").css("fill", "var(--green)")
+        $("path.FMicon").css("fill", "#4EE1A0")
     },
     () => {
         $("path.FMicon").css("fill", "#fff");
     }
 );
 $("svg.LIicon").hover(() => {
-        $("path.LIicon").css("fill", "var(--green)")
+        $("path.LIicon").css("fill", "#4EE1A0")
     },
     () => {
         $("path.LIicon").css("fill", "#fff");
     }
 );
 $("svg.CPicon").hover(() => {
-        $("path.CPicon").css("fill", "var(--green)")
+        $("path.CPicon").css("fill", "#4EE1A0")
     },
     () => {
         $("path.CPicon").css("fill", "#fff");
